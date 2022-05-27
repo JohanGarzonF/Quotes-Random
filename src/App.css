@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+}
+.App {
+  text-align: center;
+}
+.quote {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quote-box {
+  background-color: #fff;
+  padding: 15px 30px;
+  width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgb(10, 8, 8);
+}
+.quote-box p {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.author {
+  text-align: end;
+  font-size: 16px;
+  margin-top: 5px;
+}
+.author button {
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 50%;
+  margin-top: 5px;
+  color:#fff;
+}
