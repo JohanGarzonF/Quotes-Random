@@ -37,7 +37,7 @@
 }
 @media(max-width: 768px) {
   .quote-box{
-    width: 80%;
+    width: 75%;
     min-width: none;
   }
 }
