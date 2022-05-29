@@ -6,7 +6,12 @@ const QuotesBox = ({quoteRandom, colorRandom,changeQuoCol}) => {
         <p>{quoteRandom.quote}</p><hr/>
         <div className="author">
             <blockquote><i>{quoteRandom.author}</i></blockquote>
-            <button onClick={changeQuoCol} style={{backgroundColor: `${colorRandom}`}}><i class="fa-solid fa-arrow-right"></i></button>
+            <button 
+              className='quote__btn'
+              onClick={changeQuoCol} 
+              style={{backgroundColor: colorRandom}}
+              ><i class="fa-solid fa-arrow-right"></i>
+              </button>
         </div>
     </div>
   )
